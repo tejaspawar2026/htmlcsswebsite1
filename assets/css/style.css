@@ -1,0 +1,384 @@
+/* Import Google Font You Want */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+#logo {
+    float: left;
+    padding: 10px 20px;
+    color: white;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+#para {
+    display: flex;
+    margin-top: 20px;
+}
+
+#para1,
+#para2 {
+    width: 50%;
+    padding: 20px 50px;
+}
+
+#features {
+    text-align: center;
+    padding: 20px;
+}
+
+#finside {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#f1 {
+    width: calc(30% - 20px);
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#icon {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgb(247, 32, 114);
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#video-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+#video {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#work {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#chal,
+#sol {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+}
+
+#more {
+    text-align: center;
+    padding: 20px;
+}
+
+#sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#m1 {
+    width: calc(30% - 20px);
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#m1 i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#blog {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    justify-content: center;
+}
+
+#post {
+    width: 100%;
+    height: 55vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#post1 {
+    width: 25%;
+    height: 40vh;
+    margin: 0 15px;
+    padding: 30px 5px;
+}
+
+#post1 img {
+    width: 95%;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 15%;
+    height: 40px;
+    background-color: rgb(31, 63, 105);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#contact {
+    width: 60%;
+    height: 70vh;
+    margin: auto;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+#inp1 {
+    width: 45%;
+    height: 10vh;
+    float: left;
+    margin-top: 30px;
+}
+
+#inp2 {
+    width: 45%;
+    height: 10vh;
+    float: right;
+    margin-top: 30px;
+}
+
+#inp1 input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+#inp2 input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.btn1 {
+    width: 20%;
+    height: 40px;
+    background-color: rgb(31, 63, 105);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #logo {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    li {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    li a {
+        padding: 10px 16px;
+    }
+
+    li:nth-child(2) {
+        clear: both;
+    }
+
+    .container {
+        background-size: 100% 100%;
+        height: 50vh;
+        text-align: center;
+        font-size: 2.5rem;
+        color: rgb(31, 63, 105);
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        padding: 0;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    #para {
+        height: auto;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    #para1,
+    #para2{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+
+    #features,
+    #finside{
+        height: auto;
+    }
+
+    #f1{
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    #video-container{
+        height: auto;
+    }
+
+    #video{
+        width: 100%;
+        height: auto;
+    }
+
+    #work{
+        flex-direction: column;
+    }
+
+    #chal,
+    #sol{
+        margin-bottom: 20px;
+    }
+
+    #more,
+    #sec{
+        height: auto;
+    }
+
+    #m1,
+    #post1{
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    #post1 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .btn,
+    .btn1{
+        width: 20%;
+        margin-top: 30px;
+    }
+
+    #contact{
+        width: 90%;
+        height: auto;
+    }
+
+    #inp1,
+    #inp2{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    #inp1 input,
+    #inp2 input,
+    textarea{
+        width: 100%;
+    }
+
+    .footer{
+        margin-top: 10px;
+    }
+}
